@@ -9,7 +9,7 @@
 <body>
 <?php
   echo "<h1>Login</h1>";
-  include 'obrazac.php';
+  include './obrazac.php';
 ?>
 </body>
 </html>
