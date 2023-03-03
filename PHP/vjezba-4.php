@@ -17,7 +17,7 @@
 
   //var_dump($users);
 
-  unset($users[1]['spol'], $users[0]['spol']);
+  unset($users[0]['spol'], $users[1]['spol']);
   //unset($users[1]['spol']);
 
   //var_dump($users);
