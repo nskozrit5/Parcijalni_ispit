@@ -22,16 +22,12 @@
 
   //var_dump($users);
 
-  /*
   $users[] = [
     'ime' => 'Netko',
     'prezime' => 'Netkić',
     'godine' => '29'
   ];
-  */
-
-  $users[] = ['netko', 'netkić', 25];
-
+  
   var_dump($users);
 
 ?>
