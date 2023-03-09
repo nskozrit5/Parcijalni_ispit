@@ -12,7 +12,7 @@
 
   //define ('PI', 3.14);
   const PI = 3.14;
-
+  
   $a = 5;
   $b = &$a;
   echo $b, "\n";
