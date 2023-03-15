@@ -1,1 +1,32 @@
-[{"title":"Vlak u snijegu","author":"Mato Lovrak","pages":350,"available":false},{"title":"Dune","author":"Frank Herbert","pages":420,"available":true},{"title":"Biblija","author":"N\/A","pages":600,"available":false},{"title":"Laws of human nature","author":"Robert Greene","pages":250,"available":false},{"title":"Laws of human nature","author":"Robert Greene","pages":250,"available":false}]
+[
+  {
+    "title": "Vlak u snijegu",
+    "author": "Mato Lovrak",
+    "pages": 350,
+    "available": false
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "pages": 420,
+    "available": true
+  },
+  {
+    "title": "Biblija",
+    "author": "N\/A",
+    "pages": 600,
+    "available": false
+  },
+  {
+    "title": "Laws of human nature",
+    "author": "Robert Greene",
+    "pages": 250,
+    "available": false
+  },
+  {
+    "title": "Laws of human nature",
+    "author": "Robert Greene",
+    "pages": 250,
+    "available": false
+  }
+]
