@@ -14,7 +14,7 @@
   const PI = 3.14;
   
   $a = 5;
-  $b = &$a;
+  //$b = &$a;
   echo $b, "\n";
   $a = 10;
   echo $b, "\n";
