@@ -98,9 +98,9 @@ function suglasnici($broj_samoglasnika)
 if (isset($_GET['unos'])) {
     $rijec = $_GET['rijec'];
     if (!empty($rijec)) {
-      if (preg_match('/^[a-zA-Z]+$/', $rijec)) {
+      if (preg_match('/^\pL+$/u', $rijec)) {
         $rijec = strtolower($rijec); //mala slova
-        $broj_slova = strlen($rijec); //broj slova
+        $broj_slova = mb_strlen($rijec, 'UTF-8'); //broj slova
         echo "Broj slova: $broj_slova <br>";
         $niz = str_split($rijec); //prebacivanje u niz
 
