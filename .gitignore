@@ -1,4 +1,6 @@
 *
 !.gitignore
+!/PHP/
+!/PHP/Parcijalni_ispit/
 !/PHP/Parcijalni_ispit/index.php
 !/PHP/Parcijalni_ispit/words.json
