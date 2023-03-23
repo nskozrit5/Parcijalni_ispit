@@ -16,6 +16,7 @@
       padding-left: 50px;
       float: left;
     }
+    
   </style>
 
 </head>
