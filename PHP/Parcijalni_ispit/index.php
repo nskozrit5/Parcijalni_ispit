@@ -17,6 +17,7 @@
       display: flex;
       justify-content:left;
       padding-left: 5%;
+      padding-top: 5%;
     }
   </style>
 </head>
@@ -101,7 +102,6 @@ if (isset($_GET['unos'])) {
       if (preg_match('/^\pL+$/u', $rijec)) {
         $rijec = strtolower($rijec); //mala slova
         $broj_slova = mb_strlen($rijec, 'UTF-8'); //broj slova
-        echo "Broj slova: $broj_slova <br>";
         $niz = str_split($rijec); //prebacivanje u niz
 
         /*----------------unosjson------------------*/
