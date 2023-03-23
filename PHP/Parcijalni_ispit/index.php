@@ -115,8 +115,7 @@ if (isset($_GET['unos'])) {
 
         header("Location: index.php"); //reload
     } else {
-        echo "<br>Niste unijeli riječ!";
-        //$ispis1 = "Niste unijeli riječ!";
+        echo "<div id='poruka'>Niste unijeli riječ!</div>";
     }
 }
 ?>
