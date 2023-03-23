@@ -10,15 +10,15 @@
     }
     table, th, td{
       border: 1px solid black;
+      padding: 2px;
     }
     #poruka{
-      padding-top: 50px;
-      padding-left: 50px;
-      float: left;
+      font-size: large;
+      display: flex;
+      justify-content:left;
+      padding-left: 5%;
     }
-    
   </style>
-
 </head>
 <body>
   <div>
@@ -98,6 +98,7 @@ function suglasnici($broj_samoglasnika)
 if (isset($_GET['unos'])) {
     $rijec = $_GET['rijec'];
     if (!empty($rijec)) {
+      if (preg_match('/^[a-zA-Z]+$/', $rijec)) {
         $rijec = strtolower($rijec); //mala slova
         $broj_slova = strlen($rijec); //broj slova
         echo "Broj slova: $broj_slova <br>";
@@ -115,6 +116,9 @@ if (isset($_GET['unos'])) {
         /*----------------unosjson------------------*/
 
         header("Location: index.php"); //reload
+      } else {
+        echo "<div id='poruka'>Morate unijeti samo slova!</div>";
+      }
     } else {
         echo "<div id='poruka'>Niste unijeli riječ!</div>";
     }
